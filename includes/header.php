@@ -31,11 +31,11 @@
         <header class="mdui-color-blue-400 mdui-shadow-3">
             <div class="header-main">
                 <div class="header-site-title">
-                    <a href="" class="font-pmzd">狱杰的博客</a>
-                    <div class="header-site-des">我是嫩爹</div>
+                    <a href="<?php $this->options->siteUrl(); ?>" class="font-pmzd"><?php $this->options->title() ?></a>
+                    <div class="header-site-des"><?php $this->options->description() ?></div>
                 </div>
                 <nav class="nav-style">
-                    <a href="#" class="nav-btn mdui-btn" id="index">首页</a>
+                    <a href="<?php $this->options->siteUrl(); ?>" class="nav-btn mdui-btn" id="index">首页</a>
                     <a href="#" class="nav-btn mdui-btn" id="index">分类</a>
                     <a href="#" class="nav-btn mdui-btn" id="index">友链</a>
                     <a href="#" class="nav-btn mdui-btn" id="index">关于</a>
